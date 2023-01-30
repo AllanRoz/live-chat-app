@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title%}Chat Room{% endblock %}
+{% block content %}
+<p></p>
+<script>
+var z = 10;
+document.innerHTML = "The value of z is: " + z;
+</script>
+
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Message" aria-label="Message box" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="background-color: #4CAF50;">Send</button>
+</div>
+{% endblock %}
